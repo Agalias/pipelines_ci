@@ -7,7 +7,7 @@
         label_template: "${api-automation}"
         materials:
           api-automation:
-            git: https://github.com/Agalias/api_tests_ci.git
+            git: https://github.com/Agalias/pipelines_ci.git
             branch: master
             shallow_clone: true
             auto_update: true
