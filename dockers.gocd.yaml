@@ -2,12 +2,12 @@
     format_version: 2                   
     pipelines:
       api-test-docker-base:
-        group: utils
+        group: dockers
         lock_behavior: unlockWhenFinished
         label_template: "${api-automation}"
         materials:
           api-automation:
-            git: https://github.com/Agalias/pipelines_ci.git
+            git: https://github.com/Agalias/api_tests_ci.git
             branch: master
             shallow_clone: true
             auto_update: true
