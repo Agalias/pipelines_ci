@@ -8,7 +8,7 @@
         materials:
           api-automation:
             git: https://github.com/Agalias/api_tests_ci.git
-            branch: master
+            branch: main
             shallow_clone: true
             auto_update: true
             whitelist:
